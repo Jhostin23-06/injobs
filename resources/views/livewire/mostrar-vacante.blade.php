@@ -25,7 +25,7 @@
 
     <div class="md:grid md:grid-cols-6 gap-5">
         <div class="md:col-span-2">
-            <img src="{{ url('storage/app/public/vacantes/' . $vacante->imagen ) }}" alt="{{ 'Imagen vacante ' . $vacante->titulo }}">
+            <img src="{{ asset('storage/app/public/vacantes/' . $vacante->imagen ) }}" alt="{{ 'Imagen vacante ' . $vacante->titulo }}">
         </div>
 
         <div class="md:col-span-4">
