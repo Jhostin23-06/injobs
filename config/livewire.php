@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => env('APP_URL', 'https://injobs-production.up.railway.app/'),
+    'asset_url' => \Illuminate\Support\Facades\URL::to('/'),
 
     /*
     |--------------------------------------------------------------------------
