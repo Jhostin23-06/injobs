@@ -8,10 +8,11 @@
         @livewireStyles
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link rel="shortcut icon" href="{{asset('img/job.png')}}" type="png">
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
         @stack('styles')
-        <link rel="shortcut icon" href="{{asset('img/job.png')}}" type="png">
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
