@@ -1,4 +1,4 @@
-<form class="md:w-1/2 space-y-5" method="POST" wire:submit.prevent='crearVacante'>
+<form class="md:w-1/2 space-y-5" method="POST" enctype="multipart/form-data" wire:submit.prevent='crearVacante'>
     <div>
         <x-label for="titulo" :value="__('Titulo Vacante')" />
         <x-input 
